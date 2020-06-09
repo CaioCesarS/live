@@ -1,5 +1,61 @@
+@font-face {
+    font-family: dax-medium;
+    src: url(../fonts/dax-medium.ttf);
+}
+
+@font-face {
+    font-family: dax-light;
+    src: url(../fonts/dax-light.otf);
+}
+
+@font-face {
+    font-family: dax-bold;
+    src: url(../fonts/dax-bold.ttf);
+}
+
 #primeiroFundoVerde {
     text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+.titulo {
+    font-family: dax-light;
+    color: rgb(138, 139, 141);
+    font-size: 30px;
+}
+
+.tituloBranco {
+    font-family: dax-light;
+    color: white;
+    font-size: 30px;
+    background-color: green;
+}
+
+.tituloBrancoBold {
+    font-family: dax-bold;
+}
+
+.verde {
+    font-family: dax-bold;
+    color: rgb(57, 181, 74);
+}
+
+.subtitulo{
+    font-family: dax-light;
+    color: rgb(138, 139, 141);
+    font-size: 20px;
+}
+
+b.bold {
+    font-family: dax-bold;
+}
+
+.subtituloBranco{
+    font-family: dax-light;
+    color: white;
+    font-size: 20px;
+    background-color: green;
+}
+
+b.boldBranco {
+    font-family: dax-bold;
 }
