@@ -1,0 +1,94 @@
+#header{
+    background-color: green;
+    height: 500px;
+    clip-path: polygon(100% 0, 100% 30%, 49% 55%, 0 32%, 0 0);
+  }
+
+.title-sidenav{
+    color: white;
+    padding-left: 20px;
+}
+
+#titleDivider{
+    color: white;
+    background-color: white;
+}
+
+.whiteColor{
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 8%;
+}
+
+#div-img-sidenav {
+  padding: 0px;
+  height: 50px;
+  margin-top: -70px;
+  text-align: center;
+}
+
+
+  label[for="btn_menu"] {
+    padding: 10px;
+    color: white;
+    font-family: "Arial";
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+  }
+  
+  #div-btn-menu {
+    position: relative;
+    z-index: 2;
+  }
+  
+  #btn_menu {
+    display: none;
+  }
+  
+  .text-sidenav {
+    font-size: 16px;
+    font-family: dax-regular;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    padding-left: 15px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav .closebtn {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: -15px;
+    left: -10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a, .dropdown-menu{
+      font-size: 18px;
+    }
+  }
