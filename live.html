@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/escrita.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/live.css">
 
     <title>Live</title>
@@ -29,7 +30,7 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
           >&times;</a>
           <div id="div-img-sidenav">
-            <img>
+            <img src="images/Live/Menu/logo-live.png" id="logo-pro-sidenav">
           </div>
       <hr id="titleDivider">
       <p class="title-sidenav">PARA VOCÊ</p>
@@ -55,7 +56,7 @@
         <p>Assista <br/>ao Vídeo</p>
       </div>
 
-      <div class="containerCentral">
+      <div class="containerCentral" id="startMargin">
         <h2 class="titulo">NÓS AJUDAMOS VOCÊ A <br/><span class="verde">CUIDAR DA SUA SAÚDE!</span></h2>
       </div>
 
@@ -78,8 +79,8 @@
       </div>
 
       <div class="containerCentral">
-        <img id="iconLoja" src="images/Live/Page2/apple-btn.png">
-        <img id="iconLoja" src="images/Live/Page2/android-btn.png">
+        <a href="#"><img id="iconLoja" src="images/Live/Page2/apple-btn.png"></a>
+        <a href="#"><img id="iconLoja" src="images/Live/Page2/android-btn.png"></a>
       </div>
 
       <hr>
@@ -89,7 +90,7 @@
         <p class="subtitulo">Agende <b class="bold">consultas virtuais domiciliares ou no consultório.</b> Mais praticidade e mais tempo pra você!</p>
       </div>
 
-      <div class="containerCentral">
+      <div class="containerCentral" id="startMargin">
         <img id="cellphone3" src="images/Live/Page3/cellphone-3.png">
         <div id="page3">
           <h2 class="tituloBranco" id="tituloBrancoPage3">SEGUNDO <br/><span class="tituloBrancoBold">ATENDIMENTO</span></h2>
@@ -98,7 +99,7 @@
         <img id="cellphone4" src="images/Live/Page3/cellphone-4.png">
       </div>
 
-      <div class="containerCentral">
+      <div class="containerCentral" id="marginConsulta">
         <h2 class="titulo">CONSULTA <span class="verde">VIRTUAL</span></h2>
         <p class="subtitulo">Consulte-se por vídeo conferência. <b class="bold">Priorize sua saúde onde quer que você esteja.</b></p>
       </div>
@@ -130,7 +131,7 @@
         <img id="cellphone8" src="images/Live/Page6/cellphone-8.png">
       </div>
 
-      <div class="containerCentral">
+      <div class="containerCentral" id="liveCheckups">
         <h2 class="titulo">LIVE CHECKUPS <br/><span class="verde">PREVENTIVOS</span></h2>
         <p class="subtitulo">Agende checkups preventivos e mantenha sua saúde em dia. Os resultados serão armazenados e compartilhados diretamente com o seu médico.</p>
       </div>
@@ -140,6 +141,10 @@
         <div id="page7"></div>
       </div>
     </div>
+
+    <footer id="footer">
+      &copy; Copyright 2020. Todos os direitos reservados. Seven Capital.
+    </footer>
 
     <script src="js/JQuery.js"></script>
     <script src="js/bootstrap.min.js"></script>

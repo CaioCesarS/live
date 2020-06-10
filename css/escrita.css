@@ -13,13 +13,6 @@
     src: url(../fonts/dax-bold.ttf);
 }
 
-#topo p {
-    margin-top: 90px;
-    font-family: dax-bold;
-    color: white;
-    font-size: 17px;
-}
-
 .titulo {
     font-family: dax-light;
     color: rgb(138, 139, 141);
