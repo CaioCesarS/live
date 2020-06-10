@@ -129,83 +129,6 @@ hr {
     margin-top: -200px;
 }
 
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {
-    p {
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-
-    #topo {
-        height: 400px;
-        clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
-    }
-
-    #topo p {
-        margin-top: 70px;
-        font-family: dax-bold;
-        color: white;
-    }
-    
-    #topo img#logoMarca {
-        height: auto;
-        width: 200px;
-    }
-
-    #cellphone1, #cellphone2, #cellphone5, #cellphone6{
-        margin-left: -27px;
-        width: 15em;
-    }
-
-    #cellphone6{
-        margin-left: -50px;
-        width: 30em;
-    }
-
-    #iconLoja {
-        width: 10em;
-    }
-    
-    #cellphone3 {
-        width: 30em;
-        margin-left: -240px;
-        margin-top: 50px;
-    }
-    
-    #cellphone4 {
-        width: 40em;
-        margin-left: -350px;
-        margin-top: -470px;
-    }
-
-    #page6 {
-        margin-top: 20em;
-        margin-bottom: 10em;
-        height: 35em;
-    }
-
-    #cellphone7, #cellphone8 {
-        margin-left: -210px;
-        width: 27em;
-        margin-top: -300px;
-    }
-
-    #liveCheckups {
-        margin-top: 380px;
-    }
-
-    #cellphone9 {
-        margin-left: -220px;
-        width: 25em;
-        margin-top: -200px;
-    }
-
-    #page7 {
-        height: 32em;
-    }
-
-}
-
 @media only screen and (min-width: 375px) and (orientation: portrait) {   
     p {
         margin-left: 3%;
@@ -228,30 +151,42 @@ hr {
         width: 200px;
     }
 
-    #cellphone1, #cellphone2, #cellphone5, #cellphone6{
+    #cellphone1, #cellphone2, #cellphone5{
         margin-left: -27px;
         width: 15em;
     }
 
     #cellphone6{
-        margin-left: -50px;
-        width: 30em;
+        margin-left: 0px;
+        width: 100%;
     }
 
     #iconLoja {
         width: 10em;
     }
+
+    #page3 {
+        height: 70em;
+    }
+    
+    #tituloBrancoPage3 {
+        padding-top: 550px;
+    }
     
     #cellphone3 {
-        width: 30em;
-        margin-left: -240px;
+        width: 100%;
+        margin-left: -220px;
         margin-top: 50px;
     }
     
     #cellphone4 {
-        width: 40em;
-        margin-left: -350px;
-        margin-top: -470px;
+        width: 100%;
+        margin-left: -220px;
+        margin-top: -350px;
+    }
+
+    #marginConsulta {
+        margin-top: 60px;
     }
 
     #page6 {
@@ -261,9 +196,13 @@ hr {
     }
 
     #cellphone7, #cellphone8 {
-        margin-left: -210px;
-        width: 27em;
+        margin-left: -206px;
+        width: 100%;
         margin-top: -300px;
+    }
+
+    #tituloBrancoPage6 {
+        padding-top: 225px;
     }
 
     #liveCheckups {
@@ -278,5 +217,13 @@ hr {
 
     #page7 {
         height: 32em;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 375px) and (orientation: portrait) {   
+    #cellphone7, #cellphone8 {
+        margin-left: -188px;
+        width: 100%;
+        margin-top: -300px;
     }
 }
