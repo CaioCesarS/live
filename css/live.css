@@ -24,7 +24,7 @@
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-
+    
 }
 
 @media only screen and (min-width: 375px) and (orientation: portrait) {
@@ -41,10 +41,32 @@
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
-    clip-path: polygon(50% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 60%, 50% 100%, 0 60%, 0 0);
 }
 
 #topo img#logoMarca {
     margin-top: 5em;
-    width: 15%;
+    width: 250px;
+}
+
+#cellphone1, #cellphone2, #cellphone5, #cellphone6 {
+    margin-left: -60px;
+    width: 35em;
+}
+
+#iconLoja {
+    width: 20em;
+}
+
+#page3 {
+    margin-top: -60px;
+    background-image: url(../images/Live/Page3/bg-2.png);
+    height: 90em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 35%, 100% 100%, 0 75%);
+}
+
+#tituloBrancoPage3 {
+    padding-top: 700px;
 }
