@@ -3,7 +3,6 @@
 }
 
 #containerGlobal{
-    position: absolute;
     margin-top: -4050px;
 }
 
@@ -17,17 +16,22 @@
     background-image: url(../images/Pro/Page1/bg-5.png);
     height: 500px;
     margin-top: -100px;
-    clip-path: polygon(100% 0, 100% 38%, 49% 61%, 0 38%, 0 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* clip-path: polygon(100% 0, 100% 38%, 49% 61%, 0 38%, 0 0); */
+    clip-path: polygon(50% 0%, 100% 0, 100% 60%, 50% 100%, 0 60%, 0 0);
 }
 
 #segundoBackground{
-    height: 750px;
+    height: 950px;
 }
 
 #terceiroBackground{
     background-image: url(../images/Pro/Page2/teste.png);
     clip-path: polygon(0 0, 100% 36%, 100% 80%, 0 81%);
     background-size: cover;
+    z-index: -2;
+    position: relative;
     height: 1500px;
 }
 
@@ -37,6 +41,8 @@
 
 #quintoBackground{
     background-image: url(../images/Pro/Page2/teste.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
 }
 
@@ -50,7 +56,7 @@
     position: absolute;
     z-index: 3;
     right: 48%;
-    top: 33%;
+    top: 50%;
 }
 
 #logo-pro{
@@ -58,16 +64,16 @@
     width: 270px;
     position: absolute;
     z-index: 3;
-    right: 40%;
-    top: 2%;
+    right: 42%;
+    top: 10%;
 }
 
 #text-assista{
     font-family: dax-bold;
     color: white;
     position: relative;
-    top: -300px;
-    right: 9px;
+    top: -150px;
+    right: 5px;
     font-size: 23px;
 }
 
@@ -117,8 +123,24 @@
     margin-top: -6%;
 }
 
-@media only screen and (min-width: 1281px) {
+@media only screen and (max-width: 1370px) {
+    #play-pro-btn{
+        height: auto;
+        width: 70px;
+        position: absolute;
+        z-index: 3;
+        right: 47%;
+        top: 65%;
+    }
 
+    #logo-pro{
+        right: 40%;
+    }
+    
+    #text-assista{
+        top: -110px;
+        right: 3px;
+    }
 }
 
 /* Smaller than standard 960 (devices and browsers) */
@@ -144,14 +166,14 @@
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
     #containerGlobal{
-        margin-top: -4390px;
+        margin-top: -4290px;
     }
     #cellphone-11, #cellphone-12, #cellphone-13, #cellphone-14{
         width: 100%;
     }
     #play-pro-btn{
         right: 40%;
-        top: 30%;
+        top: 50%;
     }
     #logo-pro{
         right: 13%;
@@ -159,13 +181,15 @@
     }
     #text-assista{
         top: -300px;
-        right: 0px;
+        right: 3px;
+        margin-top: 150px;
+        margin-left: 20px;
     }
     #terceiroBackground{
-        clip-path: polygon(0 16%, 100% 41%, 100% 100%, 0 80%);
+        clip-path: polygon(0 16%, 100% 41%, 100% 84%, 0 65%);
     }
     #quartoBackground{
-        height: 750px;
+        height: 500px;
     }
     #quintoBackground{
         height: 700px;
