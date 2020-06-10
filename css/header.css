@@ -1,9 +1,3 @@
-#header{
-    background-color: green;
-    height: 500px;
-    clip-path: polygon(100% 0, 100% 30%, 49% 55%, 0 32%, 0 0);
-  }
-
 .title-sidenav{
     color: white;
     padding-left: 20px;
