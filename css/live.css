@@ -20,6 +20,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     clip-path: polygon(50% 0%, 100% 0, 100% 60%, 50% 100%, 0 60%, 0 0);
+    z-index: 0;
 }
 
 #topo img#logoMarca {
@@ -33,6 +34,14 @@
     font-family: dax-bold;
     color: white;
     font-size: 23px;
+}
+
+img#playButton{
+    position: absolute;
+    width: 90px;
+    margin-top: -50px;
+    margin-left: -40px;
+    z-index: 1;
 }
 
 hr {
@@ -51,6 +60,15 @@ hr {
 #cellphone1, #cellphone2, #cellphone5, #cellphone6{
     margin-left: -60px;
     width: 35em;
+}
+
+#cellphoneFull6 {
+    margin-left: -60px;
+    width: 40em;
+}
+
+#cellphone6 {
+    display: none;
 }
 
 #iconLoja {
@@ -107,14 +125,33 @@ hr {
     margin-top: -500px;
 }
 
+#cellphoneFull7, #cellphoneFull8 {
+    position: absolute;
+    z-index: 1;
+    width: 45em;
+    margin-left: -360px;
+}
+
+#cellphoneFull7 {
+    margin-top: -550px;
+}
+
+#cellphoneFull8 {
+    margin-top: -700px;
+}
+
+#cellphone7, #cellphone8 {
+    display: none;
+}
+
 #liveCheckups {
-    margin-top: 500px;
+    margin-top: 400px;
 }
 
 #page7 {
     margin-top: 200px;
     background-image: url(../images/Live/Page7/bg-4.png);
-    height: 50em;
+    height: 45em;
     background-repeat: no-repeat;
     background-size: cover;
     clip-path: polygon(50% 30%, 100% 0, 100% 100%, 0 100%, 0 0);
@@ -122,9 +159,9 @@ hr {
 }
 
 #cellphone9 {
-    margin-left: -300px;
+    margin-left: -275px;
     z-index: 1;
-    width: 35em;
+    width: 30em;
     position: absolute;
     margin-top: -200px;
 }
@@ -195,7 +232,7 @@ hr {
         height: 35em;
     }
 
-    #cellphone7, #cellphone8 {
+    #cellphone7, #cellphone8, #cellphoneFull7, #cellphoneFull8 {
         margin-left: -206px;
         width: 100%;
         margin-top: -300px;
@@ -218,10 +255,18 @@ hr {
     #page7 {
         height: 32em;
     }
+
+    #cellphone6, #cellphone7, #cellphone8 {
+        display: inline;
+    }
+
+    #cellphoneFull6, #cellphoneFull7, #cellphoneFull8 {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 375px) and (orientation: portrait) {   
-    #cellphone7, #cellphone8 {
+    #cellphone7, #cellphone8, #cellphoneFull7, #cellphoneFull8 {
         margin-left: -188px;
         width: 100%;
         margin-top: -300px;
