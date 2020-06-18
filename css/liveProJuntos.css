@@ -1,0 +1,234 @@
+#containerCentral {
+    text-align: center;
+}
+
+#containerGlobal{
+    margin-top: -4050px;
+}
+
+#logo-pro-sidenav{
+    width: 130px;
+    height: auto;
+    margin-bottom: -50px;
+}
+
+#primeiroBackground{
+    background-image: url(../images/Pro/Page1/bg-5.png);
+    height: 500px;
+    margin-top: -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* clip-path: polygon(100% 0, 100% 38%, 49% 61%, 0 38%, 0 0); */
+    clip-path: polygon(50% 0%, 100% 0, 100% 60%, 50% 100%, 0 60%, 0 0);
+}
+
+#segundoBackground{
+    height: 950px;
+}
+
+#terceiroBackground{
+    background-image: url(../images/Pro/Page2/teste.png);
+    clip-path: polygon(0 0, 100% 36%, 100% 80%, 0 81%);
+    background-size: cover;
+    z-index: -2;
+    position: relative;
+    height: 1500px;
+}
+
+#quartoBackground{
+    height: 600px;
+}
+
+#quintoBackground{
+    background-image: url(../images/Pro/Page2/teste.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+}
+
+#sextoBackground{
+    height: 500px;
+}
+
+#play-pro-btn{
+    height: auto;
+    width: 70px;
+    margin-top: -15em;
+    position: relative;
+    z-index: 3;
+}
+
+#logo-pro{
+    height: auto;
+    width: 300px;
+    margin-top: -30em;
+    margin-left: -7em;
+    position: absolute;
+    z-index: 3;
+}
+
+#text-assista{
+    font-family: dax-bold;
+    color: white;
+    position: relative;
+    top: -150px;
+    right: 5px;
+    font-size: 23px;
+}
+
+#cellphone-10{
+    height: 700px;
+    width: 375px;
+    margin-left: -4%;
+}
+
+#cellphone-11{
+    height: 700px;
+    width: 400px;
+    margin-bottom: -5%;
+}
+
+#cellphone-12{
+    height: 700px;
+    width: 375px; 
+    margin-bottom: -50px;
+}
+
+#cellphone-13{
+    height: 650px;
+    width: 375px; 
+}
+
+#cellphone-14{
+    height: 650px;
+    width: 375px; 
+}
+
+#celulares, #celular-completo{
+    height: 650px;
+    width: auto; 
+}
+
+
+
+.celular{
+    display: none;
+}
+
+#img-apple{
+    width: 150px;
+    height: auto;
+}
+
+#img-google{
+    width: 170px;
+    height: auto;
+}
+
+#img-arrow{
+    width: 50px;
+    height: auto;
+    position: relative;
+    right: -15%;
+    margin-top: -6%;
+}
+
+@media only screen and (max-width: 1370px) {
+
+    #logo-pro{
+        right: 40%;
+    }
+    
+    #text-assista{
+        top: -110px;
+        right: 3px;
+    }
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (min-width: 960px) and (max-width: 1280px){
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    #containerGlobal{
+        margin-top: -4290px;
+    }
+    #cellphone-11, #cellphone-12, #cellphone-13, #cellphone-14{
+        width: 100%;
+    }
+    #play-pro-btn{
+        margin-top: -9em;
+    }
+    #logo-pro{
+        right: 3em;
+        top: auto;
+    }
+    #text-assista{
+        top: -300px;
+        right: 3px;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    #primeiroBackground{
+        clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+    }
+    #terceiroBackground{
+        clip-path: polygon(0 16%, 100% 41%, 100% 84%, 0 65%);
+    }
+    #quartoBackground{
+        height: 500px;
+    }
+    #quintoBackground{
+        height: 700px;
+    }
+    #sextoBackground{
+        height: 470px;
+    }
+    #img-apple{
+        width: 100px;
+        height: auto;
+    }
+    
+    #img-google{
+        width: 110px;
+        height: auto;
+    }
+
+    #img-arrow{
+        right: -40%;
+        margin-top: -19%;
+    }
+
+    .celulares{
+        display: none;
+    }
+
+    .celular-completo{
+        display: none;
+    }
+
+    .celular{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 375px) and (orientation: portrait) {
+    
+}
