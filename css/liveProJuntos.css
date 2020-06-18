@@ -3,7 +3,11 @@
 }
 
 #containerGlobal{
-    margin-top: -4050px;
+    margin-top: -4170px;
+}
+
+#teste{
+    margin-top: -70px;
 }
 
 #logo-pro-sidenav{
@@ -14,7 +18,7 @@
 
 #primeiroBackground{
     background-image: url(../images/Pro/Page1/bg-5.png);
-    height: 500px;
+    height: 250px;
     margin-top: -100px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,34 +40,33 @@
 }
 
 #quartoBackground{
-    height: 600px;
+    height: 500px;
 }
 
 #quintoBackground{
     background-image: url(../images/Pro/Page2/teste.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 530px;
+    height: 600px;
 }
 
 #sextoBackground{
-    height: 500px;
+    height: 450px;
 }
 
 #play-pro-btn{
     height: auto;
-    width: 70px;
-    margin-top: -15em;
+    width: 50px;
     position: relative;
+    margin-top: -15%;
     z-index: 3;
 }
 
 #logo-pro{
     height: auto;
-    width: 300px;
-    margin-top: -30em;
-    margin-left: -7em;
+    width: 250px;
     position: absolute;
+    margin-top: -20%;
     z-index: 3;
 }
 
@@ -71,10 +74,10 @@
     font-family: dax-bold;
     color: white;
     position: relative;
-    top: -150px;
-    right: 5px;
-    font-size: 23px;
+    margin-top: 15%;
+    font-size: 15px;
 }
+
 
 #cellphone-10{
     height: 700px;
@@ -168,29 +171,28 @@
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
     #containerGlobal{
-        margin-top: -4290px;
+        margin-top: -4170px;
     }
     #cellphone-11, #cellphone-12, #cellphone-13, #cellphone-14{
         width: 100%;
     }
     #play-pro-btn{
-        margin-top: -9em;
+        margin-top: -14em;
     }
     #logo-pro{
-        right: 3em;
-        top: auto;
+        margin-top: -15em;
+        margin-right: -3em;
+        width: 170px;
     }
     #text-assista{
-        top: -300px;
-        right: 3px;
-        margin-top: 150px;
-        margin-left: 20px;
+        margin-top: 6em;
     }
     #primeiroBackground{
         clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
     }
     #terceiroBackground{
-        clip-path: polygon(0 16%, 100% 41%, 100% 84%, 0 65%);
+        clip-path: polygon(0 16%, 100% 41%, 100% 95%, 0 79%);
+
     }
     #quartoBackground{
         height: 500px;
