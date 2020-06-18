@@ -8,7 +8,7 @@
 }
 
 #logo-pro-sidenav{
-    width: 130px;
+    width: 150px;
     height: auto;
     margin-bottom: -50px;
 }
@@ -16,7 +16,7 @@
 #topo {
     margin-top: -60px;
     background-image: url(../images/Live/Page1/bg1.png);
-    height: 500px;
+    height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
     clip-path: polygon(50% 0%, 100% 0, 100% 60%, 50% 100%, 0 60%, 0 0);
@@ -26,14 +26,14 @@
 #topo img#logoMarca {
     margin-top: 5em;
     height: auto;
-    width: 270px;
+    width: 200px;
 }
 
 #topo p {
-    margin-top: 100px;
+    margin-top: 130px;
     font-family: dax-bold;
     color: white;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 img#playButton{
@@ -101,6 +101,15 @@ hr {
 
 #cellphone4 {
     margin-top: -600px;
+    display: none;
+}
+
+#cellphoneFull4 {
+    position: absolute;
+    margin-top: -600px;
+    display: inline;
+    margin-left: -400px;
+    width: 50em;
 }
 
 #page6 {
@@ -130,6 +139,7 @@ hr {
     z-index: 1;
     width: 45em;
     margin-left: -360px;
+    display: inline;
 }
 
 #cellphoneFull7 {
@@ -166,26 +176,32 @@ hr {
     margin-top: -200px;
 }
 
-@media only screen and (min-width: 376px) and (orientation: portrait) {   
+@media only screen and (min-width: 376px) and (orientation: portrait) {
     p {
         margin-left: 3%;
         margin-right: 3%;
     }
 
     #topo {
-        height: 400px;
+        height: 330px;
         clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
     }
 
     #topo p {
-        margin-top: 70px;
+        margin-top: 50px;
         font-family: dax-bold;
         color: white;
     }
     
     #topo img#logoMarca {
         height: auto;
-        width: 200px;
+        width: 140px;
+    }
+
+    img#playButton{
+        width: 70px;
+        margin-top: -35px;
+        margin-left: -30px;
     }
 
     #cellphone1, #cellphone2, #cellphone5{
@@ -199,148 +215,52 @@ hr {
     }
 
     #iconLoja {
-        width: 10em;
+        width: 9em;
     }
 
     #page3 {
-        height: 70em;
+        margin-top: 150px;
+        height: 55em;
     }
     
     #tituloBrancoPage3 {
-        padding-top: 550px;
+        padding-top: 370px;
     }
     
     #cellphone3 {
         width: 100%;
         margin-left: -220px;
-        margin-top: 50px;
+        margin-top: -90px;
     }
     
     #cellphone4 {
-        width: 100%;
-        margin-left: -220px;
-        margin-top: -350px;
-    }
-
-    #marginConsulta {
-        margin-top: 60px;
-    }
-
-    #page6 {
-        margin-top: 20em;
-        margin-bottom: 10em;
-        height: 35em;
-    }
-
-    #cellphone7, #cellphone8, #cellphoneFull7, #cellphoneFull8 {
-        margin-left: -206px;
-        width: 100%;
-        margin-top: -300px;
-    }
-
-    #tituloBrancoPage6 {
-        padding-top: 225px;
-    }
-
-    #liveCheckups {
-        margin-top: 380px;
-    }
-
-    #cellphone9 {
-        margin-left: -175px;
-        width: 20em;
-        margin-top: -200px;
-    }
-
-    #page7 {
-        height: 32em;
-    }
-
-    #cellphone6, #cellphone7, #cellphone8 {
         display: inline;
-    }
-
-    #cellphoneFull6, #cellphoneFull7, #cellphoneFull8 {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 375px) and (orientation: portrait) {   
-    p {
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-
-    #topo {
-        height: 400px;
-        clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
-    }
-
-    #topo p {
-        margin-top: 70px;
-        font-family: dax-bold;
-        color: white;
-    }
-    
-    #topo img#logoMarca {
-        height: auto;
-        width: 200px;
-    }
-
-    #cellphone1, #cellphone2, #cellphone5{
-        margin-left: -27px;
-        width: 15em;
-    }
-
-    #cellphone6{
-        margin-left: 0px;
         width: 100%;
-    }
-
-    #iconLoja {
-        width: 10em;
-    }
-
-    #page3 {
-        height: 70em;
-    }
-    
-    #tituloBrancoPage3 {
-        padding-top: 550px;
-    }
-    
-    #cellphone3 {
-        width: 100%;
-        margin-left: -200px;
-        margin-top: 50px;
-    }
-    
-    #cellphone4 {
-        width: 100%;
-        margin-left: -200px;
+        margin-left: -206px;
         margin-top: -350px;
     }
 
     #marginConsulta {
-        margin-top: 60px;
+        margin-top: 210px;
     }
 
     #page6 {
-        margin-top: 20em;
+        margin-top: 18em;
         margin-bottom: 10em;
         height: 35em;
-    }
-
-    #cellphoneFull7, #cellphoneFull8 {
-        margin-left: -206px;
-        width: 100%;
-        margin-top: -300px;
     }
 
     #cellphone7, #cellphone8 {
-        margin-left: -180px;
+        margin-left: -208px;
         width: 100%;
-        margin-top: -300px;
+    }
+    
+    #cellphone7 {
+        margin-top: -280px;
+    }
+
+    #cellphone8 {
+        margin-top: -350px;
     }
 
     #tituloBrancoPage6 {
@@ -358,22 +278,157 @@ hr {
     }
 
     #page7 {
-        height: 32em;
+        height: 30em;
     }
 
     #cellphone6, #cellphone7, #cellphone8 {
         display: inline;
     }
 
-    #cellphoneFull6, #cellphoneFull7, #cellphoneFull8 {
+    #cellphoneFull4, #cellphoneFull6, #cellphoneFull7, #cellphoneFull8 {
         display: none;
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 375px) and (orientation: portrait) {   
-    #cellphone7, #cellphone8, #cellphoneFull7, #cellphoneFull8 {
-        margin-left: -188px;
+@media only screen and (max-width: 375px) and (orientation: portrait) {
+    p {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #topo {
+        height: 330px;
+        clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+    }
+
+    #topo p {
+        margin-top: 50px;
+        font-family: dax-bold;
+        color: white;
+    }
+    
+    #topo img#logoMarca {
+        height: auto;
+        width: 140px;
+    }
+
+    img#playButton{
+        width: 70px;
+        margin-top: -35px;
+        margin-left: -30px;
+    }
+
+    #cellphone1, #cellphone2, #cellphone5{
+        margin-left: -27px;
+        width: 15em;
+    }
+
+    #cellphone6{
+        margin-left: 0px;
         width: 100%;
-        margin-top: -300px;
+    }
+
+    #iconLoja {
+        width: 9em;
+    }
+
+    #page3 {
+        margin-top: 80px;
+        height: 55em;
+    }
+    
+    #tituloBrancoPage3 {
+        padding-top: 370px;
+    }
+    
+    #cellphone3 {
+        width: 100%;
+        margin-left: -188px;
+        margin-top: -50px;
+    }
+    
+    #cellphone4 {
+        display: inline;
+        width: 100%;
+        margin-left: -180px;
+        margin-top: -350px;
+    }
+
+    #marginConsulta {
+        margin-top: 140px;
+    }
+
+    #page6 {
+        margin-top: 20em;
+        margin-bottom: 10em;
+        height: 35em;
+    }
+
+    #cellphone7, #cellphone8 {
+        margin-left: -180px;
+        width: 100%;
+    }
+
+    #cellphone7 {
+        margin-top: -280px;
+    }
+
+    #cellphone8 {
+        margin-top: -350px;
+    }
+
+    #tituloBrancoPage6 {
+        padding-top: 225px;
+    }
+
+    #liveCheckups {
+        margin-top: 225px;
+    }
+
+    #cellphone9 {
+        margin-left: -175px;
+        width: 20em;
+        margin-top: -200px;
+    }
+
+    #page7 {
+        height: 30em;
+    }
+
+    #cellphone6, #cellphone7, #cellphone8 {
+        display: inline;
+    }
+
+    #cellphoneFull4, #cellphoneFull6, #cellphoneFull7, #cellphoneFull8 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 375px) and (orientation: portrait) {
+    #cellphone4 {
+        display: inline;
+        width: 100%;
+        margin-left: -188px;
+        margin-top: -350px;
+    }
+    
+    #marginConsulta {
+        margin-top: 180px;
+    }
+
+    #tituloBrancoPage6 {
+        padding-top: 180px;
+    }
+
+    #cellphone7, #cellphone8 {
+        margin-left: -188px;
+    }
+
+    #cellphone7 {
+        margin-top: -280px;
+    }
+
+    #cellphone8 {
+        margin-top: -380px;
     }
 }
