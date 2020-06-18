@@ -13,16 +13,21 @@
     src: url(../fonts/dax-bold.ttf);
 }
 
+p.subtitulo, p.subtituloBranco {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .titulo {
     font-family: dax-light;
     color: rgb(138, 139, 141);
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .tituloBranco {
     font-family: dax-light;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .tituloBrancoBold {
@@ -47,7 +52,7 @@
 .subtitulo{
     font-family: dax-light;
     color: rgb(138, 139, 141);
-    font-size: 20px;
+    font-size: 17px;
 }
 
 b.bold {
@@ -57,7 +62,7 @@ b.bold {
 .subtituloBranco{
     font-family: dax-light;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 b.boldBranco {

@@ -33,7 +33,7 @@
     margin-top: 100px;
     font-family: dax-bold;
     color: white;
-    font-size: 23px;
+    font-size: 17px;
 }
 
 img#playButton{
@@ -45,8 +45,8 @@ img#playButton{
 }
 
 hr {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 #startMargin {
