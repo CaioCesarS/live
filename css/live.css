@@ -166,7 +166,7 @@ hr {
     margin-top: -200px;
 }
 
-@media only screen and (min-width: 375px) and (orientation: portrait) {   
+@media only screen and (min-width: 376px) and (orientation: portrait) {   
     p {
         margin-left: 3%;
         margin-right: 3%;
@@ -247,8 +247,113 @@ hr {
     }
 
     #cellphone9 {
-        margin-left: -220px;
-        width: 25em;
+        margin-left: -175px;
+        width: 20em;
+        margin-top: -200px;
+    }
+
+    #page7 {
+        height: 32em;
+    }
+
+    #cellphone6, #cellphone7, #cellphone8 {
+        display: inline;
+    }
+
+    #cellphoneFull6, #cellphoneFull7, #cellphoneFull8 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) and (orientation: portrait) {   
+    p {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #topo {
+        height: 400px;
+        clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+    }
+
+    #topo p {
+        margin-top: 70px;
+        font-family: dax-bold;
+        color: white;
+    }
+    
+    #topo img#logoMarca {
+        height: auto;
+        width: 200px;
+    }
+
+    #cellphone1, #cellphone2, #cellphone5{
+        margin-left: -27px;
+        width: 15em;
+    }
+
+    #cellphone6{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    #iconLoja {
+        width: 10em;
+    }
+
+    #page3 {
+        height: 70em;
+    }
+    
+    #tituloBrancoPage3 {
+        padding-top: 550px;
+    }
+    
+    #cellphone3 {
+        width: 100%;
+        margin-left: -200px;
+        margin-top: 50px;
+    }
+    
+    #cellphone4 {
+        width: 100%;
+        margin-left: -200px;
+        margin-top: -350px;
+    }
+
+    #marginConsulta {
+        margin-top: 60px;
+    }
+
+    #page6 {
+        margin-top: 20em;
+        margin-bottom: 10em;
+        height: 35em;
+    }
+
+    #cellphoneFull7, #cellphoneFull8 {
+        margin-left: -206px;
+        width: 100%;
+        margin-top: -300px;
+    }
+
+    #cellphone7, #cellphone8 {
+        margin-left: -180px;
+        width: 100%;
+        margin-top: -300px;
+    }
+
+    #tituloBrancoPage6 {
+        padding-top: 225px;
+    }
+
+    #liveCheckups {
+        margin-top: 300px;
+    }
+
+    #cellphone9 {
+        margin-left: -175px;
+        width: 20em;
         margin-top: -200px;
     }
 
