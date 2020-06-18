@@ -14,7 +14,7 @@
   margin-right: 8%;
 }
 
-#div-img-sidenav {
+#div-img-sidenav, #div-img-sidenav-pro{
   padding: 0px;
   height: 50px;
   margin-top: -70px;
@@ -22,7 +22,7 @@
 }
 
 
-  label[for="btn_menu"] {
+  label[for="btn_menu"], label[for="btn_menu_pro"] {
     padding: 10px;
     color: white;
     font-family: "Arial";
@@ -31,8 +31,12 @@
     width: 50px;
     height: 50px;
   }
+
+  #div-btn-menu-pro{
+    margin-top: -8em;
+  }
   
-  #div-btn-menu {
+  #div-btn-menu, #div-btn-menu-pro {
     position: relative;
     z-index: 2;
   }

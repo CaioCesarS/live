@@ -10,3 +10,11 @@ function openNav() {
     event.preventDefault();
     $(".text-dropdown-menu").toggle();
 }
+
+function openNavPro() {
+  document.getElementById("mySidenavPro").style.width = "350px";
+}
+
+function closeNavPro() {
+  document.getElementById("mySidenavPro").style.width = "0";
+}
