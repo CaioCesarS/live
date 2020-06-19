@@ -6,7 +6,7 @@
     margin-top: -4170px;
 }
 
-#teste{
+#conteudo{
     margin-top: -70px;
 }
 
@@ -15,6 +15,7 @@
     height: auto;
     margin-bottom: -50px;
 }
+
 
 #primeiroBackground{
     background-image: url(../images/Pro/Page1/bg-5.png);
@@ -70,6 +71,7 @@
     z-index: 3;
 }
 
+
 #text-assista{
     font-family: dax-bold;
     color: white;
@@ -81,30 +83,30 @@
 
 #cellphone-10{
     height: 700px;
-    width: 375px;
+    width: auto;
     margin-left: -4%;
 }
 
 #cellphone-11{
     height: 700px;
-    width: 400px;
+    width: auto;
     margin-bottom: -5%;
 }
 
 #cellphone-12{
     height: 700px;
-    width: 375px; 
+    width: auto; 
     margin-bottom: -50px;
 }
 
 #cellphone-13{
     height: 650px;
-    width: 375px; 
+    width: auto; 
 }
 
 #cellphone-14{
     height: 650px;
-    width: 375px; 
+    width: auto; 
 }
 
 #celulares, #celular-completo{
@@ -113,6 +115,9 @@
 }
 
 
+#final{
+    margin-top: -3em;
+}
 
 .celular{
     display: none;
@@ -171,13 +176,18 @@
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
     #containerGlobal{
-        margin-top: -4170px;
+        margin-top: -3620px;
+    }
+    #cellphone-10{
+        height: 550px;
+        width: auto;
     }
     #cellphone-11, #cellphone-12, #cellphone-13, #cellphone-14{
         width: 100%;
+        height: auto;
     }
     #play-pro-btn{
-        margin-top: -14em;
+        margin-top: -15em;
     }
     #logo-pro{
         margin-top: -15em;
@@ -185,24 +195,33 @@
         width: 170px;
     }
     #text-assista{
-        margin-top: 6em;
+        margin-top: -18em;
+    }
+    #conteudo{
+        margin-top: -6em;
     }
     #primeiroBackground{
+        height: 250px;
         clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
     }
     #terceiroBackground{
-        clip-path: polygon(0 16%, 100% 41%, 100% 95%, 0 79%);
+        clip-path: polygon(0 5%, 100% 20%, 100% 70%, 0 50%);
 
     }
     #quartoBackground{
-        height: 500px;
+        height: 300px;
     }
     #quintoBackground{
         height: 700px;
     }
     #sextoBackground{
-        height: 470px;
+        height: 220px;
     }
+
+    #final{
+        margin-top: -2em;
+    }
+
     #img-apple{
         width: 100px;
         height: auto;
