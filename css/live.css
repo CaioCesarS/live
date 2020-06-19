@@ -15,7 +15,7 @@
 
 #topo {
     margin-top: -60px;
-    background-image: url(../images/Live/Page1/bg1.png);
+    background: linear-gradient(30deg, rgb(51, 182, 51), rgb(51, 182, 51), rgb(214, 214, 0));
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,7 +64,7 @@ hr {
 
 #cellphoneFull6 {
     margin-left: -60px;
-    width: 40em;
+    width: 70em;
 }
 
 #cellphone6 {
@@ -76,7 +76,7 @@ hr {
 }
 
 #page3 {
-    background-image: url(../images/Live/Page3/bg-2.png);
+    background: linear-gradient(30deg, rgb(51, 182, 51), rgb(51, 182, 51), rgb(214, 214, 0));
     height: 90em;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,7 +115,7 @@ hr {
 #page6 {
     margin-top: 30em;
     margin-bottom: 20em;
-    background-image: url(../images/Live/Page6/bg-3.png);
+    background: linear-gradient(20deg, rgb(51, 182, 51), rgb(51, 182, 51), rgb(214, 214, 0));
     height: 40em;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,7 +160,7 @@ hr {
 
 #page7 {
     margin-top: 200px;
-    background-image: url(../images/Live/Page7/bg-4.png);
+    background: linear-gradient(10deg, rgb(51, 182, 51), rgb(51, 182, 51), rgb(214, 214, 0));
     height: 45em;
     background-repeat: no-repeat;
     background-size: cover;
@@ -251,7 +251,7 @@ hr {
     }
 
     #cellphone7, #cellphone8 {
-        margin-left: -208px;
+        margin-left: -206px;
         width: 100%;
     }
     
@@ -378,7 +378,7 @@ hr {
     }
 
     #tituloBrancoPage6 {
-        padding-top: 225px;
+        padding-top: 190px;
     }
 
     #liveCheckups {
