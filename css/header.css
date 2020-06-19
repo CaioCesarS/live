@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .title-sidenav{
     color: white;
     padding-left: 20px;
@@ -21,32 +25,65 @@
   text-align: center;
 }
 
+#logo-header{
+  width: 70px;
+  height: auto;
+}
+#btn-header{
+  width: 50px;
+  height: auto;
+}
+#div-btn-header{
+  position: relative;
+  z-index: 7;
+  margin-left: 80em;
+  margin-top: -2em;
+}
+.class-logo-header{
+  margin-top: -3em;
+}
 
-  label[for="btn_menu"], label[for="btn_menu_pro"] {
-    padding: 10px;
-    color: white;
-    font-family: "Arial";
-    font-size: 30px;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-  }
 
-  #div-btn-menu-pro{
-    margin-top: -8em;
-  }
+
   
   #div-btn-menu, #div-btn-menu-pro {
     position: relative;
     z-index: 2;
   }
   
-  #btn_menu {
+  #btn_menu, #btn_menu_pro {
     display: none;
   }
   
+  #headerPro, #headerLive{
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+label[for="btn_menu_pro"], label[for="btn_menu"] {
+  color: white;
+  top: 0;
+  left: 0;
+  margin-left: 1%;
+  font-family: "Arial";
+  font-size: 30px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+#mySidenavPro, #mySidenav{
+  z-index: 6;
+}
+
+
   .text-sidenav {
-    font-size: 16px;
+    font-size: 13px;
     font-family: dax-regular;
     margin-top: -3px;
     margin-bottom: -3px;
@@ -88,5 +125,12 @@
     }
     .sidenav a, .dropdown-menu{
       font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 479px){
+    #div-btn-header{
+        margin-left: 22em;
+        margin-top: -1.7em;
     }
   }
