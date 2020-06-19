@@ -193,8 +193,9 @@ hr {
     
     #topo img#logoMarca {
         height: auto;
-        width: 140px;
+        width: 110px;
     }
+
 
     img#playButton{
         width: 70px;
@@ -307,7 +308,7 @@ hr {
     
     #topo img#logoMarca {
         height: auto;
-        width: 140px;
+        width: 110px;
     }
 
     img#playButton{
@@ -410,6 +411,8 @@ hr {
         margin-top: -350px;
     }
     
+    
+
     #marginConsulta {
         margin-top: 180px;
     }
