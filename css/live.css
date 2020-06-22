@@ -66,10 +66,6 @@ hr {
     display: none;
 }
 
-#iconLoja {
-    width: 20em;
-}
-
 #page3 {
     background: linear-gradient(30deg, rgb(51, 182, 51), rgb(51, 182, 51), rgb(214, 214, 0));
     height: 90em;
