@@ -57,7 +57,7 @@
 
 #play-pro-btn{
     height: auto;
-    width: 50px;
+    width: 70px;
     position: relative;
     margin-top: -15%;
     z-index: 3;
@@ -78,7 +78,7 @@
     color: white;
     position: relative;
     margin-top: 15%;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 
@@ -149,7 +149,7 @@
     }
     
     #text-assista{
-        top: -110px;
+        top: -150px;
         right: 3px;
     }
 }
@@ -187,10 +187,10 @@
         height: auto;
     }
     #play-pro-btn{
-        margin-top: -15em;
+        margin-top: -17em;
     }
     #logo-pro{
-        margin-top: -15em;
+        margin-top: -17em;
         margin-right: -3em;
         width: 170px;
     }
@@ -201,7 +201,7 @@
         margin-top: -6em;
     }
     #primeiroBackground{
-        height: 250px;
+        height: 330px;
         clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
     }
     #terceiroBackground{
