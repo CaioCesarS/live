@@ -14,8 +14,6 @@ html{
 
 .whiteColor{
   background-color: white;
-  margin-left: 5%;
-  margin-right: 8%;
 }
 
 #div-img-sidenav, #div-img-sidenav-pro{
@@ -92,7 +90,7 @@ label[for="btn_menu_pro"], label[for="btn_menu"] {
     font-family: dax-regular;
     margin-top: -3px;
     margin-bottom: -3px;
-    padding-left: 15px;
+    margin-left: -3px;
   }
   .sidenav {
     height: 100%;
