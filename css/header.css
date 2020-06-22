@@ -7,6 +7,7 @@ html{
     margin-left: 28px;
     margin-top: -5px;
     margin-bottom: -5px;
+    font-family: Arial;
 }
 
 .sidenav a {
@@ -45,15 +46,12 @@ html{
 #div-btn-header{
   position: relative;
   z-index: 7;
-  margin-left: 80em;
+  margin-left: 80%;
   margin-top: -2em;
 }
 .class-logo-header{
   margin-top: -3em;
 }
-
-
-
   
   #div-btn-menu, #div-btn-menu-pro {
     position: relative;
@@ -120,6 +118,7 @@ label[for="btn_menu_pro"], label[for="btn_menu"] {
     margin-left: -2.5px;
     margin-top: -10px;
     margin-bottom: -10px;
+    font-family: Arial;
   }
   
   .sidenav .closebtn {
@@ -140,7 +139,6 @@ label[for="btn_menu_pro"], label[for="btn_menu"] {
 
   @media screen and (max-width: 470px){
     #div-btn-header{
-        margin-left: 20em;
         margin-top: -1.9em;
     }
 
@@ -149,12 +147,12 @@ label[for="btn_menu_pro"], label[for="btn_menu"] {
       margin-left: -2.5px;
       margin-top: -10px;
       margin-bottom: -10px;
+      font-family: Arial;
     }
   }
 
   @media screen and (max-width: 360px){
     #div-btn-header{
-        margin-left: 16.7em;
         margin-top: -1.9em;
         font-size: 15px;
     }
@@ -164,6 +162,7 @@ label[for="btn_menu_pro"], label[for="btn_menu"] {
       margin-left: -2.5px;
       margin-top: -10px;
       margin-bottom: -10px;
+      font-family: Arial;
     }
   }
 

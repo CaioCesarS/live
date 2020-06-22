@@ -3,18 +3,23 @@
 }
 
 #containerGlobal{
-    margin-top: -4050px;
+    margin-top: -4170px;
+}
+
+#conteudo{
+    margin-top: -70px;
 }
 
 #logo-pro-sidenav{
-    width: 130px;
+    width: 90px;
     height: auto;
     margin-bottom: -50px;
 }
 
+
 #primeiroBackground{
     background-image: url(../images/Pro/Page1/bg-5.png);
-    height: 250px;
+    height: 350px;
     margin-top: -100px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +32,7 @@
 }
 
 #terceiroBackground{
-    background-image: url(../images/Pro/Page2/teste.png);
+    background-image: url(../images/Pro/Page2/fundoAzul.png);
     clip-path: polygon(0 0, 100% 36%, 100% 80%, 0 81%);
     background-size: cover;
     z-index: -2;
@@ -36,72 +41,73 @@
 }
 
 #quartoBackground{
-    height: 600px;
+    height: 500px;
 }
 
 #quintoBackground{
-    background-image: url(../images/Pro/Page2/teste.png);
+    background-image: url(../images/Pro/Page2/fundoAzul.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 530px;
+    height: 600px;
 }
 
 #sextoBackground{
-    height: 500px;
+    height: 450px;
 }
 
 #play-pro-btn{
     height: auto;
-    width: 70px;
-    margin-top: -15em;
+    width: 50px;
     position: relative;
+    margin-top: -15%;
     z-index: 3;
 }
 
 #logo-pro{
     height: auto;
-    width: 270px;
+    width: 250px;
     position: absolute;
+    margin-top: -20%;
     z-index: 3;
-    right: 42%;
-    top: 10%;
 }
+
+
 
 #text-assista{
     font-family: dax-bold;
     color: white;
     position: relative;
-    top: -150px;
-    right: 5px;
-    font-size: 23px;
+    margin-top: 15%;
+    font-size: 15px;
 }
+
 
 #cellphone-10{
     height: 700px;
-    width: 375px;
+    width: auto;
     margin-left: -4%;
 }
 
 #cellphone-11{
     height: 700px;
-    width: 400px;
+    width: auto;
     margin-bottom: -5%;
 }
 
 #cellphone-12{
     height: 700px;
-    width: 375px; 
+    width: auto; 
     margin-bottom: -50px;
 }
 
 #cellphone-13{
     height: 650px;
-    width: 375px; 
+    width: auto; 
 }
 
 #cellphone-14{
     height: 650px;
-    width: 375px; 
+    width: auto; 
 }
 
 #celulares, #celular-completo{
@@ -110,6 +116,9 @@
 }
 
 
+#final{
+    margin-top: -3em;
+}
 
 .celular{
     display: none;
@@ -165,42 +174,54 @@
 
 }
 
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 470px) {
     #containerGlobal{
-        margin-top: -4290px;
+        margin-top: -3410px;
+    }
+    #cellphone-10{
+        height: 550px;
+        width: auto;
     }
     #cellphone-11, #cellphone-12, #cellphone-13, #cellphone-14{
         width: 100%;
+        height: auto;
     }
     #play-pro-btn{
-        margin-top: -9em;
+        margin-top: -15em;
     }
     #logo-pro{
-        right: 13%;
-        top: 13%;
+        margin-top: -15em;
+        margin-right: -3em;
+        width: 170px;
     }
     #text-assista{
-        top: -300px;
-        right: 3px;
-        margin-top: 150px;
-        margin-left: 20px;
+        margin-top: -18em;
+    }
+    #conteudo{
+        margin-top: -6em;
     }
     #primeiroBackground{
+        height: 250px;
         clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
     }
     #terceiroBackground{
-        clip-path: polygon(0 16%, 100% 41%, 100% 84%, 0 65%);
+        clip-path: polygon(0 5%, 100% 20%, 100% 70%, 0 50%);
+
     }
     #quartoBackground{
-        height: 500px;
+        height: 90px;
     }
     #quintoBackground{
         height: 700px;
     }
     #sextoBackground{
-        height: 470px;
+        height: 220px;
     }
+
+    #final{
+        margin-top: -2em;
+    }
+
     #img-apple{
         width: 100px;
         height: auto;
@@ -229,6 +250,81 @@
     }
 }
 
-@media only screen and (min-width: 375px) and (orientation: portrait) {
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 360px) {
+    #containerGlobal{
+        margin-top: -3110px;
+    }
+    #cellphone-10{
+        height: 550px;
+        width: auto;
+    }
+    #cellphone-11, #cellphone-12, #cellphone-13, #cellphone-14{
+        width: 100%;
+        height: auto;
+    }
+    #play-pro-btn{
+        margin-top: -15em;
+    }
+    #logo-pro{
+        margin-top: -15em;
+        margin-right: -3em;
+        width: 170px;
+    }
+    #text-assista{
+        margin-top: -18em;
+    }
+    #conteudo{
+        margin-top: -6em;
+    }
+    #primeiroBackground{
+        height: 250px;
+        clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+    }
+    #terceiroBackground{
+        clip-path: polygon(0 5%, 100% 20%, 100% 60%, 0 50%);
+
+    }
+    #quartoBackground{
+        height: 90px;
+    }
+    #quintoBackground{
+        height: 400px;
+    }
+    #sextoBackground{
+        height: 220px;
+    }
+
+    #final{
+        margin-top: -2em;
+    }
+
+    #img-apple{
+        width: 100px;
+        height: auto;
+    }
     
+    #img-google{
+        width: 110px;
+        height: auto;
+    }
+
+    #img-arrow{
+        right: -40%;
+        margin-top: -19%;
+    }
+
+    .celulares{
+        display: none;
+    }
+
+    .celular-completo{
+        display: none;
+    }
+
+    .celular{
+        display: block;
+    }
 }
+
+
