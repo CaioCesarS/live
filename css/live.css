@@ -20,7 +20,7 @@
 
 
 #topo img#logoMarca {
-    margin-top: 5em;
+    margin-top: 7em;
     height: auto;
     width: 200px;
 }
@@ -160,9 +160,9 @@ hr {
 }
 
 #cellphone9 {
-    margin-left: -275px;
+    margin-left: -220px;
     z-index: 1;
-    width: 30em;
+    width: 25em;
     position: absolute;
     margin-top: -200px;
 }
