@@ -131,9 +131,18 @@ label[for="btn_menu_pro"], label[for="btn_menu"] {
     }
   }
 
-  @media screen and (max-width: 479px){
+  @media screen and (max-width: 470px){
     #div-btn-header{
-        margin-left: 22em;
-        margin-top: -1.7em;
+        margin-left: 20em;
+        margin-top: -2.2em;
     }
   }
+
+  @media screen and (max-width: 360px){
+    #div-btn-header{
+        margin-left: 16.7em;
+        margin-top: -2.3em;
+    }
+  }
+
+  
