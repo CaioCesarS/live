@@ -3,7 +3,7 @@
 }
 
 #containerGlobal{
-    margin-top: -3970px;
+    margin-top: -3910px;
 }
 
 
@@ -49,7 +49,7 @@
 }
 
 #sextoBackground{
-    height: 450px;
+    height: 400px;
 }
 
  #play-pro-btn{
@@ -115,7 +115,7 @@
     margin-top: -3em;
 }
 
-.celular{
+.celular, .computadorECelular{
     display: none;
 }
 
@@ -162,7 +162,80 @@
 
 @media only screen and (max-width: 470px) {
     #containerGlobal{
-        margin-top: -3410px;
+        margin-top: -3340px;
+    }
+    #cellphone-10{
+        height: 550px;
+        width: auto;
+    }
+    #cellphone-11, #cellphone-12, #cellphone-13, #cellphone-14, #pcECelular{
+        width: 100%;
+        height: auto;
+    }
+    #play-pro-btn{
+        margin-top: -1em;
+    }
+     #logo-pro{
+        margin-top: -35em;
+        width: 170px;
+    } 
+    #text-assista{
+        margin-top: -8em;
+    }  
+    #primeiroBackground{
+        height: 400px;
+        clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+    }
+    #terceiroBackground{
+        clip-path: polygon(0 5%, 100% 20%, 100% 65%, 0 50%);
+
+    }
+    #quartoBackground{
+        height: 90px;
+    }
+    #quintoBackground{
+        height: 700px;
+    }
+    #sextoBackground{
+        height: 150px;
+    }
+
+    #final{
+        margin-top: -2em;
+    }
+
+    #img-apple{
+        width: 100px;
+        height: auto;
+    }
+    
+    #img-google{
+        width: 110px;
+        height: auto;
+    }
+
+    #img-arrow{
+        right: -40%;
+        margin-top: -19%;
+    }
+
+    .celulares, .computador{
+        display: none;
+    }
+
+    .celular-completo{
+        display: none;
+    }
+
+    .celular, .computadorECelular{
+        display: block;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 360px) {
+    #containerGlobal{
+        margin-top: -3210px;
     }
     #cellphone-10{
         height: 550px;
@@ -187,14 +260,14 @@
         clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
     }
     #terceiroBackground{
-        clip-path: polygon(0 5%, 100% 20%, 100% 70%, 0 50%);
+        clip-path: polygon(0 5%, 100% 20%, 100% 60%, 0 50%);
 
     }
     #quartoBackground{
         height: 90px;
     }
     #quintoBackground{
-        height: 700px;
+        height: 500px;
     }
     #sextoBackground{
         height: 220px;
@@ -232,10 +305,9 @@
     }
 }
 
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 359px) {
     #containerGlobal{
-        margin-top: -3160px;
+        margin-top: -2910px;
     }
     #cellphone-10{
         height: 550px;
@@ -259,15 +331,18 @@
         height: 400px;
         clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
     }
+    #segundoBackground{
+        height: 850px;
+    }
     #terceiroBackground{
-        clip-path: polygon(0 5%, 100% 20%, 100% 60%, 0 50%);
-
+        clip-path: polygon(0% 0%, 100% 20%, 100% 70%, 0 50%);
+        height: 1300px;
     }
     #quartoBackground{
         height: 90px;
     }
     #quintoBackground{
-        height: 450px;
+        height: 500px;
     }
     #sextoBackground{
         height: 220px;
