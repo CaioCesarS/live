@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/header.css" />
 
     <link rel="shortcut icon" href="images/favicon.png" />
-    
+
     <title>Live</title>
   </head>
   <script src="js/sidenav.js"></script>
@@ -31,7 +31,7 @@
         <img src="images/Live/Menu/logo-live.png" id="logo-header">
       </div>
       <div id="div-btn-header">
-        <a href="#primeiroBackground" 
+        <a href="#primeiroBackground"
           ><img id="btn-header-live" src="images/Live/Menu/btn-pro.png"
         /></a>
       </div>
@@ -65,7 +65,7 @@
           <img id="logoMarca" src="images/Live/Page1/logo.png" />
           <p>Assista<br />ao Vídeo</p>
         </div>
-        <a href="#" target="_blank"
+        <a data-toggle="modal" data-target="#myModal"
           ><img id="playButton" src="images/Live/Page1/play-button.png"
         /></a>
       </div>
@@ -256,7 +256,7 @@
       <a href="mailto:suporte@live2u.com.br"><p class="title-sidenav">CONTATO</p></a>
     </div>
 
-    
+
 
     <div id="backgrounds">
       <div id="primeiroBackground"></div>
@@ -269,9 +269,11 @@
 
     <div id="containerGlobal">
       <div id="containerCentral">
-        <img src="images/Pro/Page1/logomarca.png" id="logo-pro" />
-        <p id="text-assista">Assista <br />ao vídeo</p>
-        <a href="">
+
+          <img src="images/Pro/Page1/logomarca.png" id="logo-pro" />
+          <p id="text-assista">Assista <br />ao vídeo</p>
+
+        <a data-toggle="modal" data-target="#myModal">
           <img src="images/Pro/Page1/play-pro-btn.png" id="play-pro-btn" />
         </a>
       </div>
@@ -321,7 +323,7 @@
         <div id="containerCentral">
           <img src="images/Pro/Page2/cellphone-11.png" id="cellphone-11" />
         </div>
-        
+
 
         <div id="containerCentral">
           <h2 class="tituloBranco">
@@ -417,43 +419,69 @@
       </footer>
     </div>
 
+    <!-- Modal Video -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content" style="background: black;">
+                <div style="margin-right: 10px">
+                    <button type="button" class="close" style="color: white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <video controls id="video1" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                        <source src="https://res.cloudinary.com/livehealthupdates/video/upload/v1594251172/video/intro_cuc5yl.mp4" type="video/mp4">
+                        Seu navegador não suporta a tag de vídeo HTML5.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="js/JQuery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>
+
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#video1')[0].play();
+        })
+        $('#myModal').on('hidden.bs.modal', function () {
+            $('#video1')[0].pause();
+            $('#video1')[0].currentTime = 0;
+        })
+
       var mq = window.matchMedia( "(max-width: 450px)" );
     if (mq.matches) {
       $(document).ready( function() {
-      $("#headerPro").hide(); 
+      $("#headerPro").hide();
       var topOfOthDiv = $("#primeiroBackground").offset().top;
         $(window).scroll(function() {
-          if($(window).scrollTop() > topOfOthDiv) { 
-            $("#headerPro").show(); 
-            $("#headerLive").hide(); 
+          if($(window).scrollTop() > topOfOthDiv) {
+            $("#headerPro").show();
+            $("#headerLive").hide();
           }
           else{
-            $("#headerPro").hide(); 
-            $("#headerLive").show(); 
+            $("#headerPro").hide();
+            $("#headerLive").show();
           }
         });
       });
     }
     else {
       $(document).ready( function() {
-      $("#headerPro").hide(); 
+      $("#headerPro").hide();
       var topOfOthDiv = $("#backgrounds").offset().top;
         $(window).scroll(function() {
-          if($(window).scrollTop() > topOfOthDiv) { 
-            $("#headerPro").show(); 
-            $("#headerLive").hide(); 
+          if($(window).scrollTop() > topOfOthDiv) {
+            $("#headerPro").show();
+            $("#headerLive").hide();
           }
           else{
-            $("#headerPro").hide(); 
-            $("#headerLive").show(); 
+            $("#headerPro").hide();
+            $("#headerLive").show();
           }
         });
       });
     }
-      
+
     </script>
   </body>
 </html>
