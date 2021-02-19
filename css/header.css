@@ -8,6 +8,7 @@ html{
     margin-top: -5px;
     margin-bottom: -5px;
     font-family: Arial;
+    font-size: 12px;
 }
 
 .sidenav a {
@@ -58,16 +59,16 @@ html{
 .class-logo-header{
   margin-top: -3em;
 }
-  
+
   #div-btn-menu, #div-btn-menu-pro {
     position: relative;
     z-index: 2;
   }
-  
+
   #btn_menu, #btn_menu_pro {
     display: none;
   }
-  
+
   #headerPro, #headerLive{
     position: fixed;
     z-index: 5;
@@ -96,7 +97,8 @@ label[for="btn_menu_pro"], label[for="btn_menu"] {
 
 
   .text-sidenav {
-    font-family: dax-regular;
+    font-family: Arial;
+    font-size: 12px;
     margin-top: -5px;
     margin-bottom: -5px;
     margin-left: -3px;
@@ -113,7 +115,7 @@ label[for="btn_menu_pro"], label[for="btn_menu"] {
     padding-top: 60px;
     transition: 0.5s;
   }
-  
+
   .linkApp {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -126,14 +128,14 @@ label[for="btn_menu_pro"], label[for="btn_menu"] {
     margin-bottom: -10px;
     font-family: Arial;
   }
-  
+
   .sidenav .closebtn {
     color: white;
     position: absolute;
     font-size: 50px;
     top: -15px;
   }
-  
+
   @media screen and (max-height: 450px) {
     .sidenav {
       padding-top: 15px;
@@ -173,4 +175,3 @@ label[for="btn_menu_pro"], label[for="btn_menu"] {
     }
   }
 
-  
